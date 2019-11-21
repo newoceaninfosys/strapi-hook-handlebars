@@ -1,0 +1,46 @@
+{
+  "name": "strapi-hook-handlebars",
+  "version": "1.0.0",
+  "description": "Handlebars hook for the Strapi framework",
+  "homepage": "http://newoceaninfosys.com",
+  "keywords": [
+    "handlebars",
+    "hook",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "co": "^4.6.0",
+    "@nois/koa-hbs": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "author": {
+    "email": "sang.dao@newoceaninfosys.com",
+    "name": "Shawn Dao",
+    "url": "http://newoceaninfosys.com"
+  },
+  "maintainers": [
+    {
+      "name": "Shawn Dao",
+      "email": "sang.dao@newoceaninfosys.com",
+      "url": "http://newoceaninfosys.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/newoceaninfosys/strapi-hook-handlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newoceaninfosys/strapi-hook-handlebars/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
