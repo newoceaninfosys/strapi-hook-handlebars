@@ -1,7 +1,7 @@
-# strapi-hook-ejs
+# strapi-hook-handlebars
 
-[![npm version](https://img.shields.io/npm/v/strapi-ejs.svg)](https://www.npmjs.org/package/strapi-hook-handlebars)
-[![npm downloads](https://img.shields.io/npm/dm/strapi-ejs.svg)](https://www.npmjs.org/package/strapi-hook-handlebars)
+[![npm version](https://img.shields.io/npm/v/strapi-hook-handlebars.svg)](https://www.npmjs.org/package/strapi-hook-handlebars)
+[![npm downloads](https://img.shields.io/npm/dm/strapi-hook-handlebars.svg)](https://www.npmjs.org/package/strapi-hook-handlebars)
 
 This built-in hook allows you to use the Handlebars template engine with custom options.
 
@@ -18,7 +18,7 @@ To configure your hook with custom options, you need to edit your `./config/hook
 }
 ```
 
-More information in the Koa ejs module https://github.com/newoceaninfosys/koa-hbs#options
+More information in the Koa handlebars module https://github.com/newoceaninfosys/koa-hbs#options
 
 ## Usage
 
@@ -34,7 +34,7 @@ module.exports = {
 };
 ```
 
-This will render the `views/home.hbs` file and you will have access to `<%= title %>` data in your ejs file.
+This will render the `views/home.hbs` file and you will have access to `<%= title %>` data in your hbs file.
 
 ## Resources
 
